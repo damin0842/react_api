@@ -17,16 +17,17 @@ function MovieItem(props) {
     </li>
   );
 }
-const MovieCont = (props) => {
-  //console.log(Movies);
+
+const MovieList = (props) => {
+  console.log(props);
   return (
-    <section className="cont__movie">
-      <div className="container">
+    <section className="list__movie">
+      <div className="listainer">
         <div className="movie__inner">
           <ul>
-            {props.movies.map((movies, index) => (
-              <MovieItem key={index} movie={movies} />
-            ))}
+            {props.movieList.map((movieList, index) =>
+              index < 4 ? <MovieItem key={index} movie={movieList} /> : null
+            )}
           </ul>
         </div>
       </div>
@@ -34,4 +35,4 @@ const MovieCont = (props) => {
   );
 };
 
-export default MovieCont;
+export default MovieList;

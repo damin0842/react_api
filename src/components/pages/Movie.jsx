@@ -6,15 +6,37 @@ import Footer from "../layout/Footer";
 import Title from "../layout/Title";
 import MovieCont from "../include/MovieCont";
 import Contact from "../layout/Contact";
+import MovieSearch from "../include/MovieSearch";
+import MovieList from "../include/MovieList";
 
 const Movie = () => {
   const [movies, setMovies] = useState([]);
-  useEffect(() => {
+  const [movieList, setMovieList] = useState([]);
+
+  const search = (query) => {
     fetch(
-      "https://api.themoviedb.org/3/search/company?api_key=f97a45e0661e5a39f4bebca0df9e45fe&page=1&query=marble"
+      `https://api.themoviedb.org/3/search/movie?api_key=f97a45e0661e5a39f4bebca0df9e45fe&language=ko-KOR&page=1&include_adult=false&query=${query}`
     )
       .then((response) => response.json())
       .then((result) => setMovies(result.results))
+      .catch((error) => console.log("error", error));
+  };
+
+  useEffect(() => {
+    fetch(
+      "https://api.themoviedb.org/3/search/movie?api_key=f97a45e0661e5a39f4bebca0df9e45fe&language=ko-KOR&page=1&include_adult=false&query=마블"
+    )
+      .then((response) => response.json())
+      .then((result) => setMovies(result.results))
+      .catch((error) => console.log("error", error));
+  }, []);
+
+  useEffect(() => {
+    fetch(
+      "https://api.themoviedb.org/3/movie/popular?api_key=f97a45e0661e5a39f4bebca0df9e45fe&language=ko-kor&page=1"
+    )
+      .then((response) => response.json())
+      .then((result) => setMovieList(result.results))
       .catch((error) => console.log("error", error));
   }, []);
 
@@ -23,6 +45,8 @@ const Movie = () => {
       <Header />
       <Contents>
         <Title title={["Movie", "reference api"]} />
+        <MovieList movieList={movieList} />
+        <MovieSearch onSearch={search} />
         <MovieCont movies={movies} />
         <Contact />
       </Contents>
