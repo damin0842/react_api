@@ -1,0 +1,135 @@
+{
+  "type": "css",
+  "cssRefer": [
+    {
+      "num": 1,
+      "title": "align-content",
+      "desc": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+      "descBasic": "align-content : start",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+        "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 2,
+      "title": "align-items",
+      "desc": "align-items 속성은 교차축에서 아이템 정렬 하는 속성입니다. 주로 flex에서 item들을 정렬할 때 사용됩니다.",
+      "descBasic": "align-items : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+        "align-items 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 3,
+      "title": "align-self",
+      "desc": "align-self 속성은 특정 item의 정렬을 따로 하고 싶을 때 사용합니다.",
+      "descBasic": "align-self : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★☆",
+      "definition": [
+        "align-self 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+        "align-self 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 4,
+      "title": "all",
+      "desc": "all 속성은 CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다. 초깃값, 상속값, 아니면 다른 스타일시트 출처의 값로 설정할 수 있습니다.",
+      "descBasic": "all : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "all 속성은 CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다. 초깃값, 상속값, 아니면 다른 스타일시트 출처의 값로 설정할 수 있습니다.",
+        "all 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 5,
+      "title": "animation",
+      "desc": "animation 속성은 애니메이션과 관련된 속성을 일괄적로 처리합니다.",
+      "descBasic": "animation : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★☆",
+      "definition": [
+        "animation 속성은 애니메이션과 관련된 속성을 일괄적로 처리합니다.",
+        "animation 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 6,
+      "title": "animation-delay",
+      "desc": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+      "descBasic": "animation-delay : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★☆☆☆",
+      "definition": [
+        "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+        "animation-delay 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 7,
+      "title": "animation-direction",
+      "desc": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+      "descBasic": "animation-direction : normal",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+        "animation-direction 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 8,
+      "title": "animation-duration",
+      "desc": "animation-duration 속성은 애니메이션 움직인 시간을 설정합니다.",
+      "descBasic": "animation-duration : normal",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★☆☆☆",
+      "definition": [
+        "animation-duration 속성은 애니메이션 움직인 시간을 설정합니다.",
+        "animation-duration 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 9,
+      "title": "animation-fill-mode",
+      "desc": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+      "descBasic": "animation-fill-mode : normal",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★☆☆☆☆",
+      "definition": [
+        "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+        "animation-fill-mode 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    },
+    {
+      "num": 10,
+      "title": "animation-iteration-count",
+      "desc": "animation-iteration-count 속성은 애니메이션의 반복 횟수를 설정합니다.",
+      "descBasic": "animation-iteration-count : normal",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "animation-iteration-count 속성은 애니메이션의 반복 횟수를 설정합니다.",
+        "animation-iteration-count 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+      ]
+    }
+  ]
+}
