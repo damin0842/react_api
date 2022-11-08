@@ -24,6 +24,7 @@ const MovieList = (props) => {
     <section className="list__movie">
       <div className="listainer">
         <div className="movie__inner">
+          <h1>Box Office</h1>
           <ul>
             {props.movieList.map((movieList, index) =>
               index < 4 ? <MovieItem key={index} movie={movieList} /> : null

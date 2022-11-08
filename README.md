@@ -23,4 +23,12 @@ npm install gsap
 yarm npm
 rafce
 rfac
-"# reactApi" 
+"# reactApi"
+
+## 리액트 사이트1 --> 1. 퍼블리싱 2. 데이터
+
+## 뷰 사이트1 --> 1. 퍼블리싱
+
+## 리엑트 API 사이트1 --> 로우터 --> API 불러오기 --> TOP10(이미지 슬라이드)
+
+## 뷰 API 사이트1 --> 로우터 -->
