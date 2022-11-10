@@ -1,3 +1,35 @@
+.movie__slider {
+  img {
+    height: 100%;
+  }
+  .swiper-slide {
+    width: 25%;
+  }
+  .swiper-wrapper {
+    margin-bottom: 60px;
+    .swiper-slide-active img {
+      border: 4px solid var(--white);
+      filter: brightness(140%);
+    }
+  }
+}
+
+.movie__list {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+      width: 19%;
+      margin-bottom: 2%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
 .movie__inner {
   ul {
     display: flex;
