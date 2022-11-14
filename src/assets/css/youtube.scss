@@ -1,0 +1,61 @@
+.movie__popular {
+  img {
+    height: 100%;
+  }
+  .swiper-slide {
+    width: 25%;
+  }
+  .swiper-wrapper {
+    margin-bottom: 60px;
+    .swiper-slide-active img {
+      border: 4px solid var(--white);
+      filter: brightness(140%);
+    }
+  }
+}
+
+.cont__youtube {
+  column-count: 4;
+  column-gap: 20px;
+  width: 100%;
+  li {
+    margin-bottom: 20px;
+    img {
+      border-radius: 5px;
+    }
+  }
+}
+
+.Youtube_search {
+  margin-bottom: 100px;
+  .container {
+    position: relative;
+  }
+  h3 {
+    color: var(--white);
+    font-size: 40px;
+    text-indent: -9999px;
+    height: 0;
+  }
+  input {
+    background: #000;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    color: #fff;
+    width: 100%;
+    padding: 10px 30px;
+    font-family: var(--font-main);
+  }
+  button {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    font-family: var(--font-sub1);
+    cursor: pointer;
+    z-index: 1000;
+  }
+}

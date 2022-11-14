@@ -1,0 +1,11 @@
+.cont__unsplash {
+  column-count: 4;
+  column-gap: 20px;
+  width: 100%;
+  li {
+    margin-bottom: 20px;
+    img {
+      border-radius: 5px;
+    }
+  }
+}
