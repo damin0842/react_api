@@ -59,3 +59,24 @@
     z-index: 1000;
   }
 }
+.youtube__taginner {
+  text-align: center;
+  margin-bottom: 50px;
+  button {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+.popular__inner {
+  h2 {
+    color: #fff;
+  }
+}

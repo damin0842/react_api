@@ -8,7 +8,7 @@ import Title from "../layout/Title";
 import YoutubeCont from "../include/YoutubeCont";
 import YoutubeSearch from "../include/YoutubeSearch";
 import YoutubeSlider from "../include/YoutubeSlider";
-import YoutubeCate from "../include/YoutubeCate";
+import YoutubeBtn from "../include/YoutubeBtn";
 import Contact from "../layout/Contact";
 
 const Youtube = () => {
@@ -50,10 +50,8 @@ const Youtube = () => {
       <Contents>
         <Title title={["Youtube", "reference api"]} />
         <YoutubeSlider random={random} />
-
         <YoutubeSearch onSearch={search} />
-        <YoutubeCate />
-
+        <YoutubeBtn onSearch={search} />
         <YoutubeCont youtubes={youtubes} />
         <Contact />
       </Contents>
